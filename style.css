@@ -1,0 +1,56 @@
+/* Estilo para la etiqueta (label) */
+label {
+    display: block;
+    margin-bottom: 8px; /* Espacio entre la etiqueta y el campo de entrada */
+  }
+  
+  /* Estilo para el campo de entrada (input) */
+  input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px; /* Espacio inferior para separar de otros elementos */
+  }
+  
+  /* Estilo para el botón de búsqueda (button) */
+  button {
+    padding: 8px 16px;
+    background-color: #4caf50; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón cuando el cursor está sobre él */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para el botón cuando está presionado */
+  button:active {
+    background-color: #398439;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+    font-size: 16px; /* Tamaño de fuente base */
+    line-height: 1.6; /* Altura de línea */
+    color: #333; /* Color del texto principal */
+    margin: 20px; /* Márgenes alrededor del cuerpo de la página */
+  }
+  .resultContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ajusta el espacio entre los elementos */
+  }
+  
+  .item {
+    box-sizing: border-box;
+    width: 45%; /* Ajusta el ancho de cada elemento según tus necesidades */
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
